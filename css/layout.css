@@ -23,5 +23,37 @@
 }
 
 /* Posititoning Classes */
+.col-1 {
+  float: left;
+  width: 32%;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+}
+
+.col-3 {
+  width: 100%;
+}
+
+.sale-shoe {
+  display: inline-block;
+  width: 32%;
+  margin-left: 1.5%;
+  margin-top: 2%
+}
 
 
+[class*="col-"] {
+  margin-left: 2%;
+  margin-right: 0%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+section {
+  margin-bottom: 20px;
+}
